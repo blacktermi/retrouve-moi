@@ -7,3 +7,10 @@
 .nitro {
     text-align: center;
 }
+.color-button {
+    background-color: rebeccapurple;
+    color: aliceblue;
+}
+.pol{
+    font-family: 'Pacifico', cursive;
+}
