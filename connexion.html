@@ -19,35 +19,37 @@
             <div class="container-fluid">
                 <div class="row">
                   <div>
-                    <a href="connexion.html"><button class="btn btn-outline color-button my-2 my-sm-0">Connexion</button></a>
+                    <a href="inscription.html"><button class="btn btn-outline color-button my-2 my-sm-0">Inscription</button></a>
                   </div>
                 </div>
               
             </div>
         </div>
       </nav>
-      <section>
-          <div class="container">
-                <div class="container-fluid">
-                    <h1 class="hpre pol">
-                        Retrouve Moi
-                    </h1>
-                    <p class="nitro" style="margin-top: 100px;margin-bottom: 60px;font-size: 30px;">
-                      À tu envie de retrouver ton compagnon de classe, ton ex où une vielle connaissance?<span style="font-size: 30px;">&#128527;</span>
-                      <br>Super t'est tomber sur la bonne application cette fois! retrouve moi est l'app qui te permet de retouver un ami de long date
-                    </p>
-                </div>
-          </div>
-      </section>
-            <div class="container">
-                <div class="container-fluid">
+      <section class="container">
+            <div class="container-fuild">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Mot de passe</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Restez Connecté</label>
+                    </div>
                     <div class="row">
                         <div class="col text-center">
-                            <a href="inscription.html"><button type="button" class="btn color-button"> Inscrit Toi</button></a>
+                            <button class="btn color-button" type="submit">Connecté</button>
                         </div>
-                    </div>
-                </div>
+                  </form>
             </div>
+      </section>
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
